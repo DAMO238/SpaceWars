@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Map_3d.gd" type="Script" id=1]
+[ext_resource path="res://Camera.gd" type="Script" id=2]
+
+[node name="Map_3d" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.877964, 0.478727, 0, -0.478727, 0.877964, 0, 1.84757, 4.20783 )
+script = ExtResource( 2 )
